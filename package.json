@@ -1,0 +1,19 @@
+{
+  "name": "slack-dev",
+  "version": "1.0.0",
+  "description": "slack dev",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@slack/web-api": "^7.8.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9",
+    "twilio": "^5.4.3"
+  }
+}
